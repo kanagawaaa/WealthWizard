@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django_celery_beat',
     'django_celery_results',
     'tasks.apps.TasksConfig',
-    'rest_framework'
+    'rest_framework',
+    'data.apps.DataConfig',
 ]
 
 MIDDLEWARE = [
